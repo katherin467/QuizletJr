@@ -6,19 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_center="true" />
-    -->
     <TextView
         android:id="@+id/flashcard_question"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:textSize="40sp"
-        android:text="Who is the 44th president of the United States?" />
+        android:text="@string/sample_q" />
 
     <TextView
         android:id="@+id/flashcard_answer"
@@ -26,7 +20,29 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:textSize="40sp"
-        android:text="Barack Obama"
+        android:text="@string/sample_ans"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/add_flashcard_icon"
+        android:contentDescription="@string/addBtnDesc"/>
+
+    <ImageView
+        android:id="@+id/editBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/addBtn"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/edit_flashcard_icon"
+        android:contentDescription="@string/editBtnDesc"
+        />
 
 </RelativeLayout>

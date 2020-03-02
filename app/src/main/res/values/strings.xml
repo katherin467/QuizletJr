@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Quizlet Jr.</string>
+    <string name="sample_q">Who is the 44th president of the United States?</string>
+    <string name="sample_ans">Barack Obama</string>
+    <string name="new_q">Enter question here</string>
+    <string name="new_a">Enter answer here</string>
+    <string name="exitBtnDesc">Press to exit new flashcard mode></string>
+    <string name="editBtnDesc">Press to edit new flashcard></string>
+    <string name="saveBtnDesc">Press to save new flashcard></string>
+    <string name="addBtnDesc">Press to add new flashcard></string>
+
 </resources>
