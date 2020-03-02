@@ -7,7 +7,7 @@ Simple flashcard app that displays one question. Tapping the question will repla
 
 ### App Walk-though
 
-<img src="Lab2Demo.gif" width=200><br>
+<img src="Lab2demo.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
