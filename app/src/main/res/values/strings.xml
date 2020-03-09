@@ -8,5 +8,6 @@
     <string name="editBtnDesc">Press to edit new flashcard></string>
     <string name="saveBtnDesc">Press to save new flashcard></string>
     <string name="addBtnDesc">Press to add new flashcard></string>
+    <string name="nextBtnDesc">Press to go to the next flashcard></string>
 
 </resources>
