@@ -1,19 +1,17 @@
 ## Lab 4
 
 ### App Description
-`TODO://` Add app description
+Simple flashcard app that displays one question at a time. Tapping the question will replace it with the answer. Includes modes to add a new flashcard, edit the current flashcard, and move to the next flashcard. Also includes memory and save data, so that the flashcards are preserved even if the app is closed. Includes animations going from the main screen to the add card screen, to reveal the answer, and to switch between cards. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="Lab4demo.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
-- [ ] User sees a transition animation when going from the main screen to the add card screen.
-- [ ] User sees a reveal animation when the flashcard is tapped and the answer is shown
-- [ ] User sees flashcards animating in / out when the 'next' button is tapped
+- [x] User sees a transition animation when going from the main screen to the add card screen.
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees flashcards animating in / out when the 'next' button is tapped
 
 ## Optional
 - [ ] Extra styling is added!
